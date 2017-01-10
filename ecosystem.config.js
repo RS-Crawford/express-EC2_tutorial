@@ -11,7 +11,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'git@github.com:RS-Crawford/express-EC2_tutorial.git',
       path: 'express-EC2_tutorial',
-      'post-deploy': 'npm install && pm2 startOrRestart ecosysm.config.js'
+      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
 }
