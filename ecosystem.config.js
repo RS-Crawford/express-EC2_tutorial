@@ -10,7 +10,7 @@ module.exports = {
       key: '/users/samcrawford/Downloads/TUTORIAL.pem',
       ref: 'origin/master',
       repo: 'git@github.com:RS-Crawford/express-EC2_tutorial.git',
-      path: 'home/ubuntu/express-EC2_tutorial',
+      path: 'express-EC2_tutorial',
       'post-deploy': 'npm install && pm2 startOrRestart ecosysm.config.js'
     }
   }
